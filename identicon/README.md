@@ -1,4 +1,39 @@
 # Identicon
+```
+simetrical on the middle
+                        |
+--------------------------------------------- 300 px 
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+300pc|                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+     |                  |                      |   
+_____________________________________________________
+
+String -> identicon generator -> identicon image
+|
+^
+
+String
+  |> Compute MD5 hash of string
+  |> List of numbers based on the string
+  |> Pick color
+  |> Build grid of squares
+  |> Convert grid into image
+  |> Save image
+
+
+```
+
 
 **TODO: Add description**
 
