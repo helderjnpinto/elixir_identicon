@@ -32,6 +32,11 @@ String
   |> Save image
 
 
+#color
+## using de hash 
+### First 3 elements of list  -> Identicon.main("asdf")
+[145, 46, 200, 3, 178, 206, 73, 228, 165, 65, 6, 141, 73, 90, 181, 112]
+
 ```
 
 
